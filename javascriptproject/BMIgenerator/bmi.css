@@ -1,0 +1,31 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(231, 188, 188);
+    justify-content: center;
+    align-items: center;
+}
+.cls{
+    display: flex;
+    flex-direction: column;
+
+}
+#height{
+    margin-top: 10px;
+    width: 250px;
+    height:30px;
+    border-radius: 6px;
+}
+#weight{
+    margin-top: 10px;
+    width: 250px;
+    height:30px;
+   border-radius: 6px;
+}
+.btn{
+    width: 200px;
+    height:40px;
+    border-radius: 20px;
+    margin-top: 30px;
+ 
+}

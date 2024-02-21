@@ -1,0 +1,35 @@
+.center{
+ justify-content: center;
+ align-items: center;
+ margin-top: 200px;
+ margin-left: 300px;
+}
+#blueviolet{
+    border: 2px solid black;
+  height:80px;
+  width:80px;
+   margin-right: 20px;
+    background-color: blueviolet;
+   
+}
+#blue{
+    border: 2px solid black;
+    margin-right: 20px;
+    height:80px;
+    width:80px;
+    background-color: blue;
+}
+#green{
+    border: 2px solid black;
+    height:80px;
+    width:80px;
+    margin-right: 20px;
+    background-color: green;
+}
+#pink{
+    border: 2px solid black;
+    height:80px;
+  width:80px;
+  margin-right: 20px;
+    background-color:pink;
+}

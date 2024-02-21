@@ -1,0 +1,50 @@
+nav{
+    background-color: rgb(234, 231, 227);
+    align-items: center;
+    justify-content: center;
+  height: 50px;
+ align-items: center;
+ display: flex;
+ flex-direction: row;
+ 
+   
+}
+ a{
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    border: 1px solid grey;
+    background-color: rgb(241, 192, 208);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+#banner{
+   text-align: center;
+   font-size: larger;
+   font-family:'Courier New', Courier, monospace;
+   color: black;
+
+   margin-top: 250px;
+
+}
+img{
+  margin-left: 300px;
+}
+#clock{
+    border: 2px solid black;
+    background-color:goldenrod;
+    width: 130px;
+    height:50px;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 535px;
+    margin-top: 30px;
+    font-size: large;
+    padding-top: 20px;
+    font-weight: 600;
+
+}

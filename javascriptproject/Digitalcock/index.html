@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <nav class="nav">
+        <a  href="/" aria-current="page">Home</a>
+        <a target="_blank" href="https://youtu.be/Gg48H-lrZHo?si=Q_5lJqrYwXnCJKZF">Youtube Channel</a>
+    </nav>
+   
+    <div class="center">
+      
+        <div id="banner"><span><b>Your local time</b></span></div>
+        <div id="clock"></div>
+  </div>
+  <script>
+const clock =document.querySelector('#clock');
+
+setInterval(function(){
+    let date = new Date();
+clock.innerHTML=date.toLocaleTimeString();
+},1000)
+
+  </script>
+</body>
+</html>

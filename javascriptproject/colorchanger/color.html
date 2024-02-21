@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Color Changer</title>
+    <link rel="stylesheet" href="color.css"/>
+</head>
+<body>
+    <div class ="center">
+    <h3>Color Scheme Switcher</h3>
+ 
+    
+     <button class="box" id="blueviolet"></button>
+    
+    
+        <button class="box" id="blue" ></button>
+    
+    
+        <button class="box" id="green"></button>
+   
+
+        <button class="box" id="pink"></button>
+        <h4>Try clicking on one of the colors above to change the background color of this page</h4>
+    
+</div>
+   
+
+<script>
+      
+   
+    const body= document.querySelector('body');
+  const boxs = document.querySelectorAll('.box');
+  boxs.forEach(function (box) {
+    box.addEventListener('click',function(e){
+        if(e.target.id === 'blueviolet'){
+            body.style.backgroundColor = e.target.id;
+        }
+        if(e.target.id === 'blue'){
+            body.style.backgroundColor = e.target.id;
+        }
+        if(e.target.id === 'green'){
+            body.style.backgroundColor = e.target.id;
+        }
+        if(e.target.id === 'pink'){
+            body.style.backgroundColor = e.target.id;
+        }
+       
+    })
+  })
+
+                              //nodelist ke sath foreach likh skte he or foreach ke sath callback function 
+
+  const bg = ele.style.color;
+ body.bgcolor=bg;
+    
+   
+</script>
+</body>
+</html>
